@@ -109,7 +109,6 @@ const Index = () => {
         <RandomLinks />
       </main>
       <Footer />
-      <FloatingCallButton />
     </div>
   );
 };
