@@ -105,10 +105,10 @@ const FleaControlInfo = () => {
   const FaqItem = ({ item, index }: { item: typeof faqs[0]; index: number }) => (
     <div className="border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
       <button
-        className="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-amber-50 transition-colors gap-4"
+        className="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-slate-50 transition-colors gap-4"
         onClick={() => setOpenIndex(openIndex === index ? null : index)}
       >
-        <span className="font-bold text-slate-800 text-base leading-snug">{item.q}</span>
+        <h3 className="font-bold text-slate-800 text-base leading-snug m-0">{item.q}</h3>
         {openIndex === index ? (
           <ChevronUp className="w-5 h-5 text-amber-600 shrink-0" />
         ) : (
@@ -116,8 +116,8 @@ const FleaControlInfo = () => {
         )}
       </button>
       {openIndex === index && (
-        <div className="px-6 pb-6 bg-amber-50/50 border-t border-amber-100">
-          <p className="text-slate-600 leading-relaxed text-sm pt-4 font-medium">{item.a}</p>
+        <div className="px-6 pb-6 bg-white border-t border-slate-200">
+          <p className="text-slate-700 leading-relaxed text-sm pt-4 font-medium">{item.a}</p>
         </div>
       )}
     </div>
