@@ -11,13 +11,13 @@ const Contact = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-600 mb-6 font-bold uppercase tracking-[0.2em] text-xs">
               <Mail className="w-4 h-4" />
-              Contact Us
+              Contact Our Team
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid Response <span className="text-amber-600">Broomfield Wasp Team</span>
+              Rapid <span className="text-amber-600">Broomfield Moth Response</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Don't risk the swarm. Our Broomfield wasp removal specialists are standing by 24/7 for immediate surgical nest removals and knockdown treatments.
+              Stop the destruction. Our Broomfield pantry moth specialists are standing by 24/7 for structural sanitation and pheromone cycle disruption.
             </p>
 
             <div className="space-y-8">
@@ -26,7 +26,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Sting Hotline</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Moth Hotline</p>
                   <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
                 </div>
               </div>
@@ -36,9 +36,9 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Broomfield HQ</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Broomfield Office</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Broomfield CO Wasp Experts<br />
+                    Broomfield CO Pantry Moth Experts<br />
                     Broomfield, CO 80020
                   </address>
                 </div>
@@ -84,27 +84,26 @@ const Contact = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Removal Type</label>
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Aerial Nest Removal</option>
-                    <option>Soffit/Eave Treatment</option>
-                    <option>Ground Nest Removal</option>
-                    <option>Void/Structural Injection</option>
-                    <option>Seasonal Shield</option>
+                    <option>Complete Pantry Eradication</option>
+                    <option>Structural Flush & IGR</option>
+                    <option>Pheromone Trap Setup</option>
+                    <option>Commercial Storage Shield</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Nest Details</label>
-                  <Textarea placeholder="How high is the nest? Are wasps entering the siding?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Infestation Details</label>
+                  <Textarea placeholder="Are you seeing moths, larvae, or webbing? Which cabinet is the focus?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Exterminate Wasp Nest
+                  Exterminate Pantry Moths
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local CO wasp removal specialist at the number provided.
+                  By clicking, you agree to being contacted by a local CO moth specialist at the number provided.
                 </p>
               </form>
             </div>

@@ -4,23 +4,23 @@ const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Rapid Emergency Response",
-      description: "Nests in high-traffic areas require immediate action. Our Broomfield teams are mobile-ready to provide same-day surgical nest removals."
+      title: "Immediate Source Mapping",
+      description: "Infestations start deep. Our Broomfield teams specialize in tracing moth larvae to their origin point, ensuring no shipment or shelf is left un-inspected."
     },
     {
       icon: Shield,
-      title: "Family-Safe Knockdown",
-      description: "We use professional-grade knockdown agents that are highly effective on wasps while being safe for children and pets once specialized treatments dry."
+      title: "Non-Toxic Sanitation",
+      description: "We use laboratory-grade sanitation that is lethal to moths but 100% safe for food storage areas and kitchen surfaces when specialized treatments dry."
     },
     {
       icon: Target,
-      title: "Precision Structural Shield",
-      description: "Our perimeter treatment targets the specific soffits, eaves, and joints where wasps love to build, ensuring they don't return to your structure."
+      title: "Pheromone Cycle Disruption",
+      description: "Our advanced male-attraction systems disrupt the mating cycle, preventing adult moths from laying thousands of eggs in your stored grains and dry goods."
     },
     {
       icon: Award,
-      title: "Broomfield Biology Experts",
-      description: "Deep understanding of Colorado's native Vespids, including Western Yellow Jackets and Paper Wasps common in the Front Range ecosystem."
+      title: "Broomfield Storage Experts",
+      description: "Deep understanding of high-altitude storage challenges in Colorado and the specific Indian Meal Moth strains common in the Front Range ecosystem."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-amber-600">Broomfield Wasp Team?</span>
+              Why Trust Our <span className="text-amber-600">Broomfield Moth Team?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Protecting your home from aggressive wasp colonies is our specialized focus. In Broomfield, CO, the arid climate and suburban structures provide ideal nesting grounds. Our team combines physical surgical removal with advanced deterrents to reclaim your living space and provide peace of mind.
+              Protecting your pantry from destructive moth colonies is our specialized focus. In Broomfield, CO, pantry moths are a common nuisance that can quickly ruin hundreds of dollars in groceries. Our team combines structural sanitation with pheromone targeting to reclaim your kitchen and provide total peace of mind.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,9 +55,9 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/2.jpeg" alt="Nest Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/2.jpeg" alt="Moth Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
                 <img src="/3.jpeg" alt="Removal Process" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Structural Shield" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Pantry Shield" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
                 <img src="/1.jpeg" alt="Safety Protocol" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">

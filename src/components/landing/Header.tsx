@@ -22,10 +22,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Broomfield CO Wasp
+                Broomfield CO Pantry
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-amber-600" : "text-amber-400"}`}>
-                Removal <span className="text-[10px] opacity-70">Experts</span>
+                Moth <span className="text-[10px] opacity-70">Experts</span>
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">EMERGENCY LINE</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Pest Line</span>
               <a href="tel:3238801224" className="text-xl font-bold hover:text-amber-500 transition-colors tracking-tighter leading-none mt-1">(323) 880-1224</a>
             </div>
             <Button className={`${isScrolled ? "bg-amber-600 hover:bg-amber-700" : "bg-white text-slate-900 hover:bg-amber-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>

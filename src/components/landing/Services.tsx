@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Emergency Knockdown",
-    description: "Our signature instant knockdown service. We use high-pressure aerosolized agents to drop entire colonies within seconds, ensuring your immediate safety.",
+    title: "Pheromone Trapping",
+    description: "Advanced male-attraction systems to disrupt the breeding cycle. We use laboratory-grade synthetics to monitor and eliminate adult moth populations.",
     image: "/2.jpeg",
-    points: ["Instant Results", "Surgical Removal", "Zero Swarm Risk"]
+    points: ["Mating Disruption", "Population Tracking", "Non-Toxic"]
   },
   {
-    title: "Soffit & Eave Shield",
-    description: "Protection for high-elevation areas where wasps love to build. We physically remove the nest and treat the area with residual barriers to prevent re-building.",
+    title: "Structural Sanitation",
+    description: "Deep-cleaning of cracks and crevices where larvae hide. We utilize ultrasonic vacuuming and botanical growth regulators for complete purity.",
     image: "/3.jpeg",
-    points: ["High-Reach Gear", "Residual Defense", "Clean Finish"]
+    points: ["Crevice Flushing", "Larvae Removal", "Organic Safe"]
   },
   {
-    title: "Yellow Jacket Control",
-    description: "Underground and wall-void yellow jacket elimination. We utilize micro-encapsulated formulas that penetrate the colony's core for total eradication.",
+    title: "Infestation Mapping",
+    description: "We trace the source of your moth problem, identifying contaminated shipments or hidden breeding grounds in your pantries and cabinets.",
     image: "/1.jpeg",
-    points: ["Void Injection", "Colony Collapse", "Crawlspace Secure"]
+    points: ["Source Detection", "Cross-Contamination Analysis", "Expert Report"]
   },
   {
-    title: "Seasonal Prevention",
-    description: "Stop the queen before she settles. Our early-spring perimeter treatments target potential nesting sites around your Broomfield property.",
+    title: "Quarterly Pantry Guard",
+    description: "Proactive prevention against future outbreaks. We set up physical and biological barriers to ensure your storage stays moth-free year-round.",
     image: "/4.jpeg",
-    points: ["Queen Targeting", "Whole Yard Shield", "Annual Peace"]
+    points: ["Barrier Application", "Preventive Shield", "Broomfield Secure"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Wasp Elimination In Broomfield</span>
+            Comprehensive <span className="text-amber-600">Pantry Moth Control In Broomfield</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Don't risk a sting. In the Broomfield climate, wasp activity spikes during the dry summer and fall months. Our localized specialists provide surgical nest removal that keeps your family safe.
+            Protect your food supply. In the Colorado Front Range, pantry moths can quickly overwhelm kitchens and commercial storage. Our specialists provide non-invasive, effective elimination.
           </p>
         </div>
 

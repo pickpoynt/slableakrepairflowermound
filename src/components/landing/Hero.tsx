@@ -15,18 +15,18 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Emergency Wasp Nest Removal <br />
+      Pantry Moth Exterminator <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
     </>
   ),
-  subtitle = "Broomfield CO's certified wasp elimination specialists. We deploy precision surgical removal, instant knockdown protocols, and targeted micro-encapsulated treatments to completely eradicate wasp nests from your structure — 24/7.",
+  subtitle = "Broomfield CO's specialized pantry moth elimination experts. We deploy advanced pheromone targeting, structural sanitation protocols, and biological growth regulators to completely eradicate infestations from your storage — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "BROOMFIELD CO WASP EXPERTS",
+  badge = "BROOMFIELD CO PANTRY MOTH EXPERTS",
   features = [
-    { icon: Search, text: "Active Nest Location" },
-    { icon: ShieldCheck, text: "Zero Re-Emergence" },
+    { icon: Search, text: "Larvae Source Detection" },
+    { icon: ShieldCheck, text: "Eco-Safe Treatments" },
     { icon: Locate, text: "Broomfield Local" }
   ]
 }: HeroProps) => {
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Broomfield Wasp Removal Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Broomfield Pantry Moth Removal Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/60" />
       </div>
 
@@ -48,7 +48,7 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Emergency Wasp Nest Removal <br />
+             Pantry Moth Exterminator <br />
             <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
           </h1>
           
