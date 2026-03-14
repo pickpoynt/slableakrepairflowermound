@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import FleaControlInfo from "@/components/landing/FleaControlInfo";
+import BedBugInfo from "@/components/landing/BedBugInfo";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
@@ -10,32 +10,32 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
-  const firmName = "North Brooksville Flea Control Experts";
+  const firmName = "Zebulon NC Bed Bug Exterminator Experts";
   const phoneNumber = "(323) 880-1224";
-  const location = "North Brooksville, FL";
-  const zipCodes = "34601, 34604, 34606, 34613, 34614";
-  const fullKeyword = "Flea control north brooksville";
+  const location = "Zebulon, NC";
+  const zipCodes = "27597, 27562, 27502, 27587, 27529, 27603";
+  const fullKeyword = "Bed bug exterminator Zebulon NC";
 
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": firmName,
     "image": "/4.jpeg",
-    "@id": "https://fleacontrolnorthbrooksville.vercel.app/",
-    "url": "https://fleacontrolnorthbrooksville.vercel.app/",
+    "@id": "https://bedbugexterminatorzebulonnc.vercel.app/",
+    "url": "https://bedbugexterminatorzebulonnc.vercel.app/",
     "telephone": "3238801224",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "North Brooksville",
-      "addressLocality": "North Brooksville",
-      "addressRegion": "FL",
-      "postalCode": "34601",
+      "streetAddress": "Zebulon",
+      "addressLocality": "Zebulon",
+      "addressRegion": "NC",
+      "postalCode": "27597",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 28.5700,
-      "longitude": -82.4002
+      "latitude": 35.8257,
+      "longitude": -78.3244
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -54,23 +54,24 @@ const Index = () => {
       "name": firmName
     },
     "areaServed": [
-      { "@type": "City", "name": "North Brooksville, FL" },
-      { "@type": "PostalCode", "name": "34601" },
-      { "@type": "PostalCode", "name": "34604" },
-      { "@type": "PostalCode", "name": "34606" },
-      { "@type": "PostalCode", "name": "34613" },
-      { "@type": "PostalCode", "name": "34614" }
+      { "@type": "City", "name": "Zebulon, NC" },
+      { "@type": "PostalCode", "name": "27597" },
+      { "@type": "PostalCode", "name": "27562" },
+      { "@type": "PostalCode", "name": "27502" },
+      { "@type": "PostalCode", "name": "27587" },
+      { "@type": "PostalCode", "name": "27529" },
+      { "@type": "PostalCode", "name": "27603" }
     ],
-    "description": `Professional ${fullKeyword}. Expert flea elimination and pet-safe treatments in North Brooksville FL ${zipCodes}.`
+    "description": `Professional ${fullKeyword}. Expert bed bug heat treatment and elimination in ${location} ${zipCodes}.`
   };
 
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{`${fullKeyword} | ${firmName} | ${phoneNumber}`}</title>
-        <meta name="description" content={`Expert ${fullKeyword}. We provide 24/7 pest control, pet-safe flea treatments, and yard perimeter protection in ${location}. Call ${phoneNumber} now for rapid flea elimination.`} />
-        <meta name="keywords" content={`${fullKeyword}, flea exterminator North Brooksville, flea treatment Brooksville FL, pest control 34601, flea removal Hernando County`} />
-        <link rel="canonical" href="https://fleacontrolnorthbrooksville.vercel.app/" />
+        <title>{`${fullKeyword} | ${firmName} | ${phoneNumber} | ZIP: ${zipCodes}`}</title>
+        <meta name="description" content={`Expert ${fullKeyword}. Certified bed bug heat treatment and total elimination in ${location}. Call ${phoneNumber} now for 24/7 rapid dispatch. Serving ZIP codes ${zipCodes}.`} />
+        <meta name="keywords" content={`${fullKeyword}, bed bug heat treatment Zebulon NC, bed bug exterminator Wake County, pest control 27597, bed bug removal Johnston County NC`} />
+        <link rel="canonical" href="https://bedbugexterminatorzebulonnc.vercel.app/" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -80,19 +81,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Flea Control <br />
-              <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">North Brooksville</span>
+              Bed Bug Exterminator <br />
+              <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Zebulon NC</span>
             </>
           }
-          subtitle="North Brooksville's specialized flea eradication experts. We provide laboratory-grade treatments and total infestation removal to protect your pets and property — 24/7."
+          subtitle="Zebulon NC's certified bed bug elimination specialists. We deploy heat treatment and residual chemical protocols to completely eradicate infestations — protecting your family and your sleep — 24/7."
           image="/4.jpeg"
           overlayImage="/1.jpeg"
-          badge="NORTH BROOKSVILLE FLEA EXPERTS"
+          badge="ZEBULON NC BED BUG EXPERTS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <FleaControlInfo />
+        <BedBugInfo />
         <Contact />
       </main>
       <RandomLinks />

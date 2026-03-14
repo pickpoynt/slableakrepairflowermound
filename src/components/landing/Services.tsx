@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Household Flea Removal",
-    description: "Multi-stage interior treatments targeting flea larvae, eggs, and adults in carpets, upholstery, and hard-to-reach crevices throughout your North Brooksville home.",
+    title: "Heat Treatment",
+    description: "Whole-room thermal remediation raising temperatures to 120°F+ — the proven lethal threshold for bed bugs at all life stages including eggs — without harmful chemicals.",
     image: "/2.jpeg",
-    points: ["Safe for Pets", "Long-term Residuals", "Total Eradication"]
+    points: ["100% Chemical-Free", "Kills All Life Stages", "One-Day Treatment"]
   },
   {
-    title: "Yard & Perimeter Shield",
-    description: "Protective outdoor boundaries that stop flea migration from neighboring properties and local wildlife, creating a safe outdoor zone for your family and pets.",
+    title: "Residual Chemical Treatment",
+    description: "EPA-registered insecticide applications to mattresses, box springs, baseboards, and hidden harborage areas providing weeks of residual killing power.",
     image: "/3.jpeg",
-    points: ["Turf Protection", "Perimeter Barriers", "Eco-Friendly Options"]
+    points: ["Fast Knockdown", "Extended Residual", "Pet-Safe After Dry"]
   },
   {
-    title: "Pet-Safe IGR Treatment",
-    description: "Insect growth regulator applications that sterilize flea eggs and prevent larvae from maturing — breaking the flea life cycle permanently in your home.",
+    title: "Canine Bed Bug Detection",
+    description: "Certified K-9 detection teams identify even single bed bugs and eggs with over 95% accuracy, pinpointing infestations before they spread.",
     image: "/1.jpeg",
-    points: ["Breaks Life Cycle", "Pet Safe", "Months of Protection"]
+    points: ["95%+ Accuracy", "Certified Teams", "Early Detection"]
   },
   {
-    title: "Follow-Up & Prevention",
-    description: "Scheduled 14-21 day return visits to eliminate any newly hatched pupae and confirm total eradication — with optional ongoing prevention plans.",
+    title: "Follow-Up & Warranty",
+    description: "Mandatory follow-up inspections at 7 and 21 days post-treatment ensure total eradication with a service warranty backing every Zebulon NC job.",
     image: "/4.jpeg",
-    points: ["Guaranteed Results", "Ongoing Plans", "No Recurring Fleas"]
+    points: ["Verified Results", "Service Warranty", "Peace of Mind"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Professional <span className="text-amber-600">Flea Control North Brooksville</span>
+            Professional <span className="text-amber-600">Bed Bug Exterminator Zebulon NC</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            North Brooksville homeowners trust our specialized team for precision flea lifecycle elimination and total property protection. We target every stage.
+            Zebulon homeowners trust our certified team for rapid bed bug lifecycle elimination and total property restoration. We target every stage — from eggs to adults.
           </p>
         </div>
 

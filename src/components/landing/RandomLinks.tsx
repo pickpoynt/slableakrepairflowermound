@@ -1,8 +1,8 @@
 const links = [
-  { text: "Chipmunk Removal Brooksville FL", url: "https://chipmunkremovalbrooksvillefl.vercel.app/" },
-  { text: "No Tent Termite Treatment Brooksville FL", url: "https://notenttermitetreatmentbrooksvillefl.vercel.app/" },
-  { text: "Emergency Wasp Removal Brooksville FL", url: "https://emergencywaspremovalbrooksvillefl.vercel.app/" },
-  { text: "Tick Control Service Brooksville FL", url: "https://tickcontrolservicebrooksvillefl.vercel.app/" },
+  { text: "Bed Bug Exterminator in Wapakoneta Ohio", url: "https://bedbugexterminatorinwapakonetaohio.vercel.app/" },
+  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" },
+  { text: "Brown Recluse Pest Control Nashville", url: "https://brownreclusepestcontrolnashville.vercel.app/" },
+  { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
 ];
 
 const RandomLinks = () => {

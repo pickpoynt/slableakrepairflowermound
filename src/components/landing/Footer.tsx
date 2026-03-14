@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">North Brooksville Flea</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Control Experts</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Zebulon NC Bed Bug</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Exterminator Experts</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              North Brooksville's rapid-response flea elimination team. We provide safe, effective flea treatments and professional pest protection throughout North Brooksville and the surrounding Hernando County area.
+              Zebulon NC's rapid-response bed bug elimination team. We provide certified heat treatments and professional bed bug protection throughout Zebulon and surrounding Johnston and Wake County areas.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Interior Flea Removal", "Yard Treatment", "Pet-Safe Protocols", "Follow-Up Service", "Prevention Plans"].map((item) => (
+              {["Heat Treatment", "Chemical Treatment", "K-9 Detection", "Follow-Up Service", "Prevention Plans"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  North Brooksville Flea Control Experts<br />
-                  North Brooksville, FL 34601
+                  Zebulon NC Bed Bug Exterminator Experts<br />
+                  Zebulon, NC 27597
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} North Brooksville Flea Control Experts. All rights reserved. Professional Flea Control North Brooksville, FL.
+            © {new Date().getFullYear()} Zebulon NC Bed Bug Exterminator Experts. All rights reserved. Professional Bed Bug Exterminator Zebulon NC.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
             <p className="text-slate-400 text-sm mb-4 uppercase font-bold tracking-widest">

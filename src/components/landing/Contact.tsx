@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            NORTH BROOKSVILLE FLEA CONTROL EXPERTS
+            ZEBULON NC BED BUG EXTERMINATOR EXPERTS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Professional <span className="text-amber-600">Flea Control North Brooksville</span>
+            Professional <span className="text-amber-600">Bed Bug Exterminator Zebulon NC</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your North Brooksville home and pets from dangerous flea infestations. Our licensed team provides same-day assessment, targeted IGR treatment, and full property flea elimination across North Brooksville, FL and surrounding areas.
+            Protect your Zebulon home from dangerous bed bug infestations. Our licensed team provides same-day assessment, heat treatment, and full property bed bug elimination across Zebulon, NC and surrounding Wake County areas.
           </p>
 
           <div className="space-y-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">FLEA CONTROL HOTLINE</p>
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">BED BUG HOTLINE</p>
                 <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
                   (323) 880-1224
                 </a>
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">LOCAL CERTIFICATION</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Licensed Hernando County Pest Control Specialists</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Licensed Wake County Pest Control Specialists</p>
               </div>
             </div>
 
@@ -46,8 +46,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">North Brooksville Flea Control Experts</p>
-                <p className="text-slate-500 font-medium text-sm">North Brooksville, FL 34601</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Zebulon NC Bed Bug Exterminator Experts</p>
+                <p className="text-slate-500 font-medium text-sm">Zebulon, NC 27597</p>
                 <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
               </div>
             </div>

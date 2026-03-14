@@ -14,19 +14,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Flea Control <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">North Brooksville</span>
+      Bed Bug Exterminator <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Zebulon NC</span>
     </>
   ),
-  subtitle = "North Brooksville's specialized flea eradication experts. We provide laboratory-grade treatments and total infestation removal to protect your pets and property — 24/7.",
+  subtitle = "Zebulon NC's certified bed bug elimination specialists. We deploy heat treatment and residual chemical protocols to completely eradicate infestations — protecting your family and your sleep — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "NORTH BROOKSVILLE FLEA EXPERTS",
+  badge = "ZEBULON NC BED BUG EXPERTS",
   features = [
-    { icon: Search, text: "Sewer Diagnostic" },
-    { icon: ShieldCheck, text: "Trenchless Repair" },
-    { icon: Locate, text: "Chino Hills Local" }
+    { icon: Search, text: "Bed Bug Inspection" },
+    { icon: ShieldCheck, text: "Heat Treatment" },
+    { icon: Locate, text: "Zebulon NC Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
