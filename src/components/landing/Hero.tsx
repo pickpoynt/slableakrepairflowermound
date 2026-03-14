@@ -14,19 +14,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Bed Bug Exterminator <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Zebulon NC</span>
+      Cockroach Exterminator <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Clarksdale MS</span>
     </>
   ),
-  subtitle = "Zebulon NC's certified bed bug elimination specialists. We deploy heat treatment and residual chemical protocols to completely eradicate infestations — protecting your family and your sleep — 24/7.",
+  subtitle = "Clarksdale MS's certified cockroach elimination specialists. We deploy gel bait, residual insecticides, and IGR protocols to completely eradicate infestations — protecting your family and your home — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "ZEBULON NC BED BUG EXPERTS",
+  badge = "CLARKSDALE MS ROACH EXPERTS",
   features = [
-    { icon: Search, text: "Bed Bug Inspection" },
-    { icon: ShieldCheck, text: "Heat Treatment" },
-    { icon: Locate, text: "Zebulon NC Local" }
+    { icon: Search, text: "Roach Inspection" },
+    { icon: ShieldCheck, text: "Gel Bait System" },
+    { icon: Locate, text: "Clarksdale MS Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

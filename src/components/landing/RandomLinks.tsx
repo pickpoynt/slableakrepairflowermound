@@ -1,8 +1,8 @@
 const links = [
-  { text: "Bed Bug Exterminator in Wapakoneta Ohio", url: "https://bedbugexterminatorinwapakonetaohio.vercel.app/" },
-  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" },
-  { text: "Brown Recluse Pest Control Nashville", url: "https://brownreclusepestcontrolnashville.vercel.app/" },
   { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
+  { text: "Brown Recluse Spider Control LaGrange", url: "https://brownreclusespidercontrollagrange.vercel.app/" },
+  { text: "Wildlife Removal Gastonia NC", url: "https://wildliferemovalgastonianc.vercel.app/" },
+  { text: "Smoke Odor Removal Nashville", url: "https://smokeodorremovalnashville.vercel.app/" },
 ];
 
 const RandomLinks = () => {
