@@ -49,7 +49,7 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-4 lg:hidden">
-            <a href="tel:3238801224" className="flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-xl font-bold text-sm shadow-lg animate-pulse">
+            <a href="tel:3238801224" className="flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-md font-bold text-sm shadow-lg animate-pulse">
               <Phone className="w-4 h-4" />
               CALL NOW
             </a>
