@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Structural Void Flushing",
-    description: "Deep-injection of wall voids and attic spaces to eliminate clusters where they winter. We utilize mechanical micro-mists for full coverage.",
+    title: "Precision Void Injections",
+    description: "Targeted application of dust and micro-encapsulated agents into the structural voids where Brown Recluse spiders aggregate and hide during the day.",
     image: "/2.jpeg",
-    points: ["Wall Void Targeting", "Attic Space Flush", "Residual Barriers"]
+    points: ["Wall Void Entry", "Basement Joist Flush", "Electrical Box Guard"]
   },
   {
-    title: "Mechanical Exclusion",
-    description: "Seal points of entry including window frames, soffit vents, and structural gaps. We use high-grade sealants to prevent future fall invasions.",
+    title: "Mechanical Enclosure",
+    description: "Deep exclusion protocols including sealing window frames, baseboards, and plumbing penetrations to deny spiders access to your living quarters.",
     image: "/3.jpeg",
-    points: ["Window Sealing", "Soffit Screening", "Entry Point Fixes"]
+    points: ["Baseboard Sealing", "Plumbing Gaps", "Structural Fortification"]
   },
   {
-    title: "Residual Perimeter Shield",
-    description: "Application of weather-resistant micro-encapsulated residuals to south-facing walls where cluster flies aggregate before entering.",
+    title: "Residual Perimeter Defense",
+    description: "Application of specialized weather-resistant residuals to the home's exterior to intercept spiders before they penetrate the structural envelope.",
     image: "/1.jpeg",
-    points: ["South-Wall Armor", "UV Resistant", "Broomfield Secure"]
+    points: ["Foundation Shield", "Eave Protection", "Broomfield Secure"]
   },
   {
-    title: "Emergency Knockdown",
-    description: "Rapid reduction of active indoor fly clusters using safe, non-invasive aerosols that leave your home clean and fly-free instantly.",
+    title: "Eco-Biological Control",
+    description: "Deployment of biological growth regulators and specialized monitors to break the reproductive cycle and track population reduction in hidden nodes.",
     image: "/4.jpeg",
-    points: ["Instant Results", "Interior Safe", "24/7 Dispatch"]
+    points: ["Cycle Disruption", "Node Monitoring", "24/7 Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Specialized <span className="text-amber-600">Fly Control In Broomfield</span>
+            Specialized <span className="text-amber-600">Recluse Abatement In Broomfield</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Don't let cluster flies take over your home this winter. In the Front Range, fall invasions can lead to thousands of flies in your attic. Our Broomfield teams provide total abatement.
+            Brown Recluse spiders are not like common household spiders. They are elusive, resilient, and require a specialized structural approach. In Broomfield, CO, our team provides the elite level of expertise needed for total eradication.
           </p>
         </div>
 

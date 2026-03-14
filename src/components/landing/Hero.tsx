@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Cluster Fly Infestation Help <br />
+      Brown Recluse Spider Specialist <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
     </>
   ),
-  subtitle = "Broomfield CO's trusted cluster fly abatement specialists. We deploy structural void treatments, mechanical exclusion, and targeted residual applications to eliminate fall invasions and winter clusters — 24/7.",
+  subtitle = "Broomfield CO's specialized brown recluse abatement experts. We deploy targeted micro-encapsulated residuals, precision void injections, and exhaustive structural exclusion to eliminate the Front Range's most elusive threat — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "BROOMFIELD CO CLUSTER FLY EXPERTS",
+  badge = "BROOMFIELD CO BROWN RECLUSE EXPERTS",
   features = [
-    { icon: Search, text: "Attic Void Mapping" },
-    { icon: ShieldCheck, text: "Mechanical Exclusion" },
-    { icon: Locate, text: "Broomfield Local" }
+    { icon: Search, text: "Precision Void Mapping" },
+    { icon: ShieldCheck, text: "Enclosure Sealing" },
+    { icon: Locate, text: "Broomfield Native" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,8 +36,8 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Broomfield Cluster Fly Removal Background" className="w-full h-full object-cover animate-slow-zoom" />
-        <div className="absolute inset-0 bg-slate-950/60" />
+        <img src={image} alt="Broomfield Brown Recluse Treatment Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-left">
@@ -48,7 +48,7 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Cluster Fly Infestation Help <br />
+             Brown Recluse Spider Specialist <br />
             <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
           </h1>
           
@@ -67,7 +67,7 @@ const Hero = ({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full animate-fade-in-up [animation-delay:400ms]">
             {features.map((feature, i) => (
-              <div key={i} className="flex flex-col items-start gap-4 bg-black/20 backdrop-blur-md p-8 rounded-3xl border border-white/10 group hover:bg-white/10 transition-colors">
+              <div key={i} className="flex flex-col items-start gap-4 bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10 group hover:bg-white/10 transition-colors">
                 <div className="w-16 h-16 rounded-2xl bg-amber-600/20 flex items-center justify-center group-hover:bg-amber-600 transition-colors">
                   <feature.icon className="w-8 h-8 text-amber-400 group-hover:text-white" />
                 </div>

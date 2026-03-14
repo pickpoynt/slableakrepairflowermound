@@ -14,18 +14,18 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Broomfield CO</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Cluster Fly Experts</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Brown Recluse Experts</span>
               </div>
             </div>
-            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Broomfield's trusted name for comprehensive cluster fly abatement. We utilize structural void flushing, mechanical exclusion, and high-performance residuals to keep your home secure and fly-free.
+            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-balance">
+              Broomfield's specialized authority on Brown Recluse spider abatement. We deploy structural void injections and mechanical enclosures to protect your home.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Treatments</h4>
             <ul className="space-y-4">
-              {["Void Flushing", "Mechanical Exclusion", "Attic Fogging", "Perimeter Barriers", "Soffit Sealing"].map((item) => (
+              {["Void Injections", "Enclosure Sealing", "Node Mapping", "Residual Barriers", "Structural Reset"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -37,11 +37,17 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Quick Links</h4>
+            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Support</h4>
             <ul className="space-y-4">
-              {["Specialists", "Service Area", "Knowledge Base", "Lease This Number"].map((item) => (
+                 <li>
+                  <a href="/lease-my-number" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
+                    <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
+                    LEASE MY NUMBER AND LINK IT TO LEASE PAGE
+                  </a>
+                </li>
+              {["Specialists", "Knowledge Base", "Residential Defense"].map((item) => (
                 <li key={item}>
-                  <a href={item === "Lease This Number" ? "/lease-my-number" : "#"} className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
+                  <a href="#" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
                     {item}
                   </a>
@@ -56,7 +62,7 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Broomfield CO Cluster Fly Experts<br />
+                  Broomfield CO Brown Recluse Experts<br />
                   Broomfield, CO 80020<br />
                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider font-heading">ZIP CODES: 80020, 80021, 80023, 80031, 80038</span>
                 </address>
@@ -73,13 +79,10 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} Broomfield CO Cluster Fly Experts. Professional Cluster Fly Infestation Help Broomfield. No Free Quotes.
+            © {new Date().getFullYear()} Broomfield CO Brown Recluse Experts. Professional Brown Recluse Spider Specialist Broomfield. No Free Quotes.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <p className="text-slate-400 text-sm mb-4 uppercase font-bold tracking-widest">
-              For support or inquiries, please email <a href="mailto:leasemynumber@gmail.com" className="text-amber-500 hover:underline">LEASE MY NUMBER</a> AND LINK IT TO <a href="/lease-my-number" className="text-amber-500 hover:underline">LEASE PAGE</a>
-            </p>
-            <p className="text-[10px] text-slate-600 leading-relaxed font-medium">
+             <p className="text-slate-400 text-[10px] leading-relaxed font-medium">
               This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.
             </p>
           </div>
